@@ -14,6 +14,27 @@ description: |
 
 ---
 
+
+## Skill Boundaries
+
+- **하는 것** — 범용 인물 프로파일링 엔진.
+- **안 하는 것** — 채용역량평가(→직접수행), 조직분석(→management-skill), 정책기획(→policy-planning), 일반리서치(→research-skill).
+
+## When to Use
+
+- 사용자가 "분석해줘", "프로파일링해줘", "리서치해줘", "조사해줘", "profile" 같은 표현으로 발동
+- 미팅·협상·투자 전 인물 파악시, 파트너·경쟁자 분석시, 엘베피치 준비시.
+- **안 쓸 때** — 채용역량평가(→직접수행), 조직분석(→management-skill), 정책기획(→policy-planning), 일반리서치(→research-skill).
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
+
 ## ⛔ 절대 규칙
 
 | # | 규칙 |
@@ -111,7 +132,38 @@ P1 프레임   →  P2 리서치   →  P3 프로파일링  →  P4 엘베피치
 산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
 
-## Gotchas
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/profiler-skill_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | 리포트로, 프로필로, 엘베피치로, .md로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/profiler-skill/{YYYY-MM-DD}_{topic}.md` |
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/7-axis-framework.md` | 7 axis framework | 해당 단계 진입 시 |
+| `references/depth-control.md` | depth control | 해당 단계 진입 시 |
+| `references/p2-research-phase.md` | p2 research phase | 해당 단계 진입 시 |
+| `references/p3-profiling-rules.md` | p3 profiling rules | 해당 단계 진입 시 |
+| `references/p4-elevator-pitch.md` | p4 elevator pitch | 해당 단계 진입 시 |
+| `references/quality-gotchas.md` | quality gotchas | 해당 단계 진입 시 |
+| `references/s3-intermediate-outputs.md` | s3 intermediate outputs | 해당 단계 진입 시 |
+| `references/s35-report-conversion.md` | s35 report conversion | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `직접수행`
+- 후속 작업 → `management-skill`
+- 후속 작업 → `policy-planning`
+- 후속 작업 → `research-skill`
+
+## Failure Modes (Gotchas)
 
 | 함정 | 대응 |
 |---|---|
@@ -119,3 +171,11 @@ P1 프레임   →  P2 리서치   →  P3 프로파일링  →  P4 엘베피치
 | 주관적 판단 과잉 | DNA·강점·약점은 공개 정보 기반으로만 |
 | 개인정보 민감 항목 | 공개된 정보만. 사생활 영역 배제 |
 | 엘베피치 과잉 압축 | 30초 제약 내 핵심 1문장 유지 |
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
