@@ -1,13 +1,7 @@
 ---
 name: profiler-skill
 description: |
-  범용 인물 프로파일링 엔진. 웹 리서치 기반 7축 분석(경력DNA·의사결정·비전·평판·개성·관계망·현재상황) → DNA 5~7대 도출 → 강점·약점 판정 → 30초 엘베피치 자동 생성.
-    P1: 인물프로파일링, 인물리서치, 인물분석, DNA프로파일링, 사람분석, person profile, person research, profiler, 인물조사, 인물검색, CEO프로파일, 대표프로파일, 투자자프로파일, 파트너프로파일, 경쟁자프로파일, 인물정보, 인물배경, 인물이력, 경력분석, 의사결정스타일, 엘베피치, 30초피치, 미팅준비.
-    P2: 분석해줘, 프로파일링해줘, 리서치해줘, 조사해줘, profile, research, analyze, 인물 조사해줘, 이 사람 알아봐줘, 미팅 전에 정보 줘, 누구야 이 사람.
-    P3: person profiling, DNA analysis, elevator pitch, character analysis, reputation analysis, decision-making style, stakeholder profiling.
-    P4: 미팅·협상·투자 전 인물 파악시, 파트너·경쟁자 분석시, 엘베피치 준비시.
-    P5: 리포트로, 프로필로, 엘베피치로, .md로.
-    NOT: 채용역량평가(→직접수행), 조직분석(→management-skill), 정책기획(→policy-planning), 일반리서치(→research-skill).
+  범용 인물 프로파일링 엔진. 웹 리서치 기반 7축 분석(경력DNA·의사결정·비전·평판·개성·관계망·현재상황) → DNA 5~7대 도출 → 강점·약점 판정 → 30초 엘베피치 자동 생성. 트리거: 인물프로파일링, 인물리서치, 인물분석, DNA프로파일링, 사람분석, person profile, person research, profiler, 인물조사, 인물검색, CEO프로파일, 대표프로파일, 투자자프로파일, 파트너프로파일, 경쟁자프로파일, 인물정보, 인물배경, 인물이력, 경력분석. NOT: 채용역량평가(→직접수행), 조직분석(→management-skill), 정책기획(→policy-planning), 일반리서치(→research-skill).
 ---
 
 # Profiler Skill — 프로파일러 스킬
