@@ -1,5 +1,6 @@
 ---
 name: profiler-skill
+version: 1.0
 description: |
   범용 인물 프로파일링 엔진. 웹 리서치 기반 7축 분석(경력DNA·의사결정·비전·평판·개성·관계망·현재상황) → DNA 5~7대 도출 → 강점·약점 판정 → 30초 엘베피치 자동 생성. 트리거: 인물프로파일링, 인물리서치, 인물분석, DNA프로파일링, 사람분석, person profile, person research, profiler, 인물조사, 인물검색, CEO프로파일, 대표프로파일, 투자자프로파일, 파트너프로파일, 경쟁자프로파일, 인물정보, 인물배경, 인물이력, 경력분석. NOT: 채용역량평가(→직접수행), 조직분석(→management-skill), 정책기획(→policy-planning), 일반리서치(→research-skill).
 ---
